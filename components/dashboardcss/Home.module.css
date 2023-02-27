@@ -1,0 +1,107 @@
+.DashboardHomeMainContainer{
+    width:100vw;
+    height:100vh;
+    display: flex;
+}
+
+.DashboardHomeContentContainer{
+    width: 100%;
+    height: 100vh;
+}
+
+.DashboardMainMainContentContainer{
+    height: calc(100% - 65px);
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.DashboardMainContent{
+    width:calc(100% - 95px);
+    margin:50px auto;
+    height: max-content;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.DashboardMainContent>*{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.DashboardMainContent>:first-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.DashboardMostBasicUsagesShorted{
+    width:100%;
+}
+
+.DashboardPartTitle{
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.DashboardBoxesContainer{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    gap:20px;
+    flex-wrap: nowrap;
+}
+
+.DashboardUsageBox{
+    height:max-content;
+    width: 35%;
+    border:1px solid black;
+    padding:15px;
+    border-radius: 13px;
+}
+
+.DashboardUsageBoxTitle{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.DashboardUsageBoxContext{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.DashboardUsageBoxButton{
+    margin-top: 20px;
+    width:max-content;
+    padding:8px 8px;
+    border-radius:8px;
+    background-color: #3463ff;
+    /* background-color: #007fff */
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+.DashboardModerationPart{
+    width: 100%;
+}
+
+.DashboardModBoxes{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.DashboardModBox{
+    border:1px solid black;
+    width: 30%;
+    height: 140px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-radius: 13px;
+}

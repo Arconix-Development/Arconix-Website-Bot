@@ -1,0 +1,172 @@
+.DashboardSideNavContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: radial-gradient(205.35% 99.12% at 100% 0%, #001c78 0%, #00145e 100%);
+    background: radial-gradient(211.95% 102.31% at 197.55% -2.31%, #28105B 0%, #141366 100%); */
+    /* background: radial-gradient(169.62% 67.14% at 169.62% 32.86%, #2c008a 0%, #11105B 100%) */
+    /* background: #28105B; */
+    /* background: linear-gradient(188.77deg, #013c95 -37.53%, #001168 86.14%); */
+    background: linear-gradient(188.77deg, #013c95 -37.53%, #022861 106.14%);
+    flex-shrink: 0;
+}
+
+.DashboardSideNavContentContainer{
+    width: 85%;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .DashboardSideNavContentContainer>*{
+    border:1px solid rgba(255, 0, 0, 1)
+} */
+
+.DashboardSideNavTopPart{
+    width: 100%;
+    min-height: 6%;
+    background: rgba(217, 217, 217, 0.08);
+    cursor: pointer;
+    border-radius: 8px;
+    flex-shrink: 0;
+    /* margin-bottom: 10px; */
+}
+
+.TopPartServerContainer{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius: 5px;
+    padding:0px 13px
+}
+
+.ServerPicture{
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border:1px solid white;
+}
+
+.ServerNameContainer{
+    width: 80%;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.ServerName{
+    display: flex;
+    color: white;
+    font-size:13px;
+    font-weight: 700;
+    margin:0 auto;
+    padding-right: 3px;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width:155px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.ServerArrow{
+    width: max-content;
+    height: max-content;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.DashboardSideNavMiddlePart{
+    width: 100%;
+    height: 89%;
+    overflow-y: scroll;
+}
+
+.DashboardSideNavMiddlePart::-webkit-scrollbar{
+    display: none;
+}
+
+/* .DashboardSideNavMiddlePart::-webkit-scrollbar{
+    background-color:inherit;
+    width: 5px;
+}
+
+.DashboardSideNavMiddlePart::-webkit-scrollbar-thumb {
+    background:rgb(128, 128, 128);
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+} */
+
+.ContainerButtons{
+    width: 98%;
+    height:max-content;
+    margin-top: 0px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.328);
+    margin-bottom: 15px;
+}
+
+.ContainerButtons:first-child{
+    margin-top: 20px;
+}
+
+.ContainerTitle{
+    color:white;
+    font-size: 13.5px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ButtonContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.Buttonsomething{
+    display: flex;
+    align-items:center;
+    height:25px;
+    gap:10px;
+    cursor: pointer;
+}
+
+.ButtonNav{
+    color:rgba(255, 255, 255, 0.500);
+    font-size: 13.5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    height:max-content;
+    width: 100%;
+}
+
+.ButtonNav:hover{
+    color:white;
+}
+
+.Buttonsomething:last-child{
+    margin-bottom: 10px;
+}
+
+.ButtonPic{
+    border:1px solid rgba(255, 255, 255, 0.618);
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.DashboardSideNavBottomPart{
+    width: 100%;
+    height: 5%;
+    border-top:1px solid rgba(128, 128, 128, 0.328);
+}

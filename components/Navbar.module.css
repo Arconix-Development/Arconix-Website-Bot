@@ -1,0 +1,162 @@
+.HomeNavbarContainer{
+    /* width:clamp(1px,80%,1500px); */
+    width: 100vw;
+    /* borderbottom:1px solid gray; */
+    height:max-content;
+    /* paddingtop: 10px;
+    paddingbottom: 10px; */
+    display: flex;
+    justify-content: center;
+    /* position: fixed;
+    top:0; */
+    /* background-color: #ffffff21; */
+    backdrop-filter: blur(5px);
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.318); */
+    z-index: 9;
+    height: 60px;
+}
+
+.HomeNavbarMainContainer{
+    width:clamp(0px,95%,1700px);
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HomeNavbarLeftSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeNavbarLogoContainer{
+    width:max-content;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    cursor: pointer;
+}
+
+.HomeLogo{
+    width: 50px;
+    height: 50px;
+}
+
+.HomeLogoName{
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+
+.NavButton{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    /* background: linear-gradient(14.25deg, #324e7b,#3b4e70);
+    background: webkitlineargradient(14.25deg, #324e7b,#3b4e70);
+    background-clip: text;
+    webkitbackground-clip: text; */
+    color: rgb(255,255,255);
+    transition: color .3s ease-in-out;
+    /* borderbottom:2px solid rgb(61, 148, 242); */
+    padding:15px 15px;
+}
+
+.BlackButton{
+    color: #000;
+}
+
+.NavButton:hover{
+    /* color:rgba(0,0,0,0);
+    color: rgb(61, 106, 202); */
+    color: rgb(185,185,185);
+}
+
+.HomeNavbarRightSide{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap:35px;
+}
+
+/* .HomeSignUp{
+    height: 100%;
+    width: max-content;
+    border-radius: 15px;
+    padding:9px 20px;
+    background: linear-gradient(97.24deg, #2e4bc0 15%, #0094FF 200%);
+    dbc7b3 #fadb5f
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+
+        position:absolute;
+    right: 390px;
+    margin-top: -5px;
+} */
+
+.HomeSignUp{
+    border:1px solid white;
+    border-radius: 20px;
+    display:flex;
+    align-items:center;
+    padding:16px 18px;
+    height:25px;
+    width:max-content;
+    font-size: 16.5px;
+    cursor: pointer;
+    color: white;
+    margin-right:20px;
+}
+
+
+.Contboxnewdesign{
+    position:absolute;
+    right: 390px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.ContboxBox{
+    display: flex;
+    width: 100%;
+    border-left:4px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    gap:8px;
+    padding:10px 10px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.32);
+}
+
+.ContboxBox:hover{
+    border-left-color:#0e86ff;
+    background-color: rgba(14, 135, 255, 0.134);
+}
+
+.ContboxBox:last-child{
+    border-bottom: 0px solid transparent;
+}
+
+.ContboxBox>*{
+    padding:0px 10px
+}
+
+.Contboxnewdesigntitle{
+    color: #000;
+    font-weight: 500;
+}
+
+.Contboxnewdesigncontext{
+    color: rgb(0,0,0,0.8);
+    font-size: 13.5px;
+}

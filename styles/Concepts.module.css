@@ -1,0 +1,12 @@
+.MainContainer{
+    width: 100vw;
+    height: 100vh;
+}
+
+.BarChart{
+    width: 600px;
+    height: 250px;
+    margin-bottom: 50px;
+    margin:50px auto;
+    border:1px solid black;
+}

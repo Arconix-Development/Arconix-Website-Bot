@@ -1,0 +1,51 @@
+.MainContainer{
+    border-bottom:1px solid rgba(128, 128, 128, 0.328);
+    height:65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MainContainer>*{
+    width: max-content;
+    height: max-content;
+    margin:0px 50px;
+}
+
+.ArconixLogo{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+.DashboardLogo{
+    height: 50px;
+    width: 50px;
+}
+
+.LogoText{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.AccountContainer{
+    display: flex;
+    gap:25px;
+    align-items: center;
+}
+
+.Bell{
+    border:1px solid rgba(0, 0, 0, 0.361);
+    border-radius: 100px;
+    height:30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.Accountpfp{
+    border:1px solid rgba(0, 0, 0, 0.361);
+    border-radius: 100px;
+    height:40px;
+    width: 40px;
+    cursor: pointer;
+}
